@@ -14,11 +14,11 @@ const Home = () => {
       <div className="container p-5">
         <Jumbotron />
 
-        <div className="row row-cols-1 row-cols-md-3 g-4 gap-3 d-flex justify-content-center ">
-          <Card titulo="hola" contenido="bbbb" />
-          <Card titulo="hola" contenido="bbbb" />
-          <Card titulo="hola" contenido="bbbb" />
-          <Card titulo="hola" contenido="bbbb" />
+        <div className="row row-cols-1 row-cols-md-3 g-4 gap-3 d-flex justify-content-center justify-content-md-between">
+          <Card titulo="titulo1" contenido="xxxxxxxxxsaaaaaaaaaaa" />
+          <Card titulo="titulo2" contenido="sssssssssssssssssssss" />
+          <Card titulo="titulo3" contenido="dddddddddddddddddddd" />
+          <Card titulo="titulo4" contenido="sssssssssssssssssssss" />
         </div>
       </div>
       <Footer />
